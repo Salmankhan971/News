@@ -1,17 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login | Sports News</title>
+    <title>Cricket News</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="checkLogin()">
 
-<div class="login-box">
-    <h2>Login</h2>
-    <input type="text" id="username" placeholder="Username">
-    <input type="password" id="password" placeholder="Password">
-    <button onclick="login()">Login</button>
-    <p id="error"></p>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="football.html">Football</a>
+    <a href="tennis.html">Tennis</a>
+</nav>
+
+<div class="content">
+    <h2>Cricket News</h2>
+
+    <img class="page-img" src="https://images.unsplash.com/photo-1593766827228-8737b4534aa6" alt="Cricket">
+
+    <p>
+        Cricket is one of the most followed sports in the world. From thrilling T20 matches
+        to classic Test cricket, fans enjoy every format of the game.
+    </p>
+
+    <ul>
+        <li>Pakistan wins ODI series</li>
+        <li>Babar Azam scores a brilliant century</li>
+        <li>Young talent shines in domestic cricket</li>
+    </ul>
 </div>
 
 <script src="auth.js"></script>
